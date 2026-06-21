@@ -1,0 +1,10 @@
+algorithm,precision,worst_case_iterations,ops_per_iteration,total_ops_worst_case
+Newton–Raphson,fp8,1,MUL=2;ADD=0;SUB=1;SHIFT=0;CMP=0,MUL=2;ADD=0;SUB=1;SHIFT=0;CMP=0
+Newton–Raphson,bf16,1,MUL=2;ADD=0;SUB=1;SHIFT=0;CMP=0,MUL=2;ADD=0;SUB=1;SHIFT=0;CMP=0
+Newton–Raphson,fp32,3,MUL=2;ADD=0;SUB=1;SHIFT=0;CMP=0,MUL=6;ADD=0;SUB=3;SHIFT=0;CMP=0
+Goldschmidt classic,fp8,2,MUL=2;ADD=0;SUB=1;SHIFT=0;CMP=0,MUL=4;ADD=0;SUB=2;SHIFT=0;CMP=0
+Goldschmidt classic,bf16,3,MUL=2;ADD=0;SUB=1;SHIFT=0;CMP=0,MUL=6;ADD=0;SUB=3;SHIFT=0;CMP=0
+Goldschmidt classic,fp32,5,MUL=2;ADD=0;SUB=1;SHIFT=0;CMP=0,MUL=10;ADD=0;SUB=5;SHIFT=0;CMP=0
+Goldschmidt binomial (order=3),fp8,1,MUL=4;ADD=3;SUB=1;SHIFT=0;CMP=0,MUL=4;ADD=3;SUB=1;SHIFT=0;CMP=0
+Goldschmidt binomial (order=3),bf16,2,MUL=4;ADD=3;SUB=1;SHIFT=0;CMP=0,MUL=8;ADD=6;SUB=2;SHIFT=0;CMP=0
+Goldschmidt binomial (order=3),fp32,3,MUL=4;ADD=3;SUB=1;SHIFT=0;CMP=0,MUL=12;ADD=9;SUB=3;SHIFT=0;CMP=0

@@ -1,0 +1,4 @@
+precision,exp_min,exp_max,max_iter,n,min_iters,max_iters,mean_iters,median_iters,p95_iters,p99_iters,failure_rate
+fp8,-20.0,20.0,50,100000,1,1,1.000000,1.000000,1,1,0.000000
+bf16,-20.0,20.0,50,100000,1,1,1.000000,1.000000,1,1,0.000000
+fp32,-20.0,20.0,50,100000,1,3,2.801350,3.000000,3,3,0.000000

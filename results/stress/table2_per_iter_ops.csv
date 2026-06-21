@@ -1,0 +1,4 @@
+algorithm,MUL_per_iter,ADD_per_iter,SUB_per_iter
+Newton-Raphson,2,0,1
+Goldschmidt classic,2,0,1
+Goldschmidt binomial,4,3,1

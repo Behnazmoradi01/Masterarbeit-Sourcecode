@@ -1,0 +1,10 @@
+algorithm,precision,min_iterations,max_iterations
+Newton-Raphson,fp8,1,1
+Newton-Raphson,bf16,1,1
+Newton-Raphson,fp32,1,3
+Goldschmidt classic,fp8,1,2
+Goldschmidt classic,bf16,1,3
+Goldschmidt classic,fp32,1,5
+Goldschmidt binomial,fp8,1,1
+Goldschmidt binomial,bf16,1,2
+Goldschmidt binomial,fp32,1,3

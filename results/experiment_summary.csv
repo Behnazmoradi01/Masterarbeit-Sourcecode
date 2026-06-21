@@ -1,0 +1,7 @@
+precision,strategy,mean_iters,max_iters,mean_final_err,max_final_err
+fp32,linear,2.8050,3,2.977719e-09,5.955814e-08
+fp32,magic,2.8030,3,2.567548e-09,5.931372e-08
+fp32,magic_bf16,2.8100,3,2.225472e-09,5.942933e-08
+bf16,linear,1.0000,1,1.638800e-03,3.460180e-03
+bf16,magic,1.0000,1,1.353522e-03,2.551286e-03
+bf16,magic_bf16,1.0000,1,1.416294e-03,3.104202e-03

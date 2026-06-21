@@ -1,0 +1,8 @@
+Stress test over 1M random b values (log-uniform, seed=1).
+Tests Newton-Raphson, Goldschmidt classic, and Goldschmidt binomial at FP8, BF16, and FP32 precision thresholds.
+
+Main finding: Newton-Raphson converges in at most 3 iterations at FP32, which matches the theoretical bound from the quadratic convergence rate. Goldschmidt classic needs up to 5 iterations at FP32 because it only has linear convergence per step.
+
+Goldschmidt binomial (order=3) uses more operations per iteration but needs fewer iterations overall -- whether this is actually faster depends on the hardware cost of the extra multiplications.
+
+At BF16 and FP8 precision the differences are smaller since all algorithms converge in 1-2 steps anyway.

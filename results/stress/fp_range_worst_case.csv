@@ -1,0 +1,46 @@
+range,b_lo,b_hi,algorithm,precision,worst_case_iterations
+tiny,1e-06,0.01,Newton-Raphson,fp8,1
+tiny,1e-06,0.01,Newton-Raphson,bf16,1
+tiny,1e-06,0.01,Newton-Raphson,fp32,3
+tiny,1e-06,0.01,Goldschmidt classic,fp8,2
+tiny,1e-06,0.01,Goldschmidt classic,bf16,3
+tiny,1e-06,0.01,Goldschmidt classic,fp32,5
+tiny,1e-06,0.01,Goldschmidt binomial,fp8,1
+tiny,1e-06,0.01,Goldschmidt binomial,bf16,2
+tiny,1e-06,0.01,Goldschmidt binomial,fp32,3
+small,0.01,0.5,Newton-Raphson,fp8,1
+small,0.01,0.5,Newton-Raphson,bf16,1
+small,0.01,0.5,Newton-Raphson,fp32,3
+small,0.01,0.5,Goldschmidt classic,fp8,2
+small,0.01,0.5,Goldschmidt classic,bf16,3
+small,0.01,0.5,Goldschmidt classic,fp32,5
+small,0.01,0.5,Goldschmidt binomial,fp8,1
+small,0.01,0.5,Goldschmidt binomial,bf16,2
+small,0.01,0.5,Goldschmidt binomial,fp32,3
+near_1,0.5,2.0,Newton-Raphson,fp8,1
+near_1,0.5,2.0,Newton-Raphson,bf16,1
+near_1,0.5,2.0,Newton-Raphson,fp32,3
+near_1,0.5,2.0,Goldschmidt classic,fp8,2
+near_1,0.5,2.0,Goldschmidt classic,bf16,3
+near_1,0.5,2.0,Goldschmidt classic,fp32,5
+near_1,0.5,2.0,Goldschmidt binomial,fp8,1
+near_1,0.5,2.0,Goldschmidt binomial,bf16,2
+near_1,0.5,2.0,Goldschmidt binomial,fp32,3
+medium,2.0,100.0,Newton-Raphson,fp8,1
+medium,2.0,100.0,Newton-Raphson,bf16,1
+medium,2.0,100.0,Newton-Raphson,fp32,3
+medium,2.0,100.0,Goldschmidt classic,fp8,2
+medium,2.0,100.0,Goldschmidt classic,bf16,3
+medium,2.0,100.0,Goldschmidt classic,fp32,5
+medium,2.0,100.0,Goldschmidt binomial,fp8,1
+medium,2.0,100.0,Goldschmidt binomial,bf16,2
+medium,2.0,100.0,Goldschmidt binomial,fp32,3
+large,100.0,1000000.0,Newton-Raphson,fp8,1
+large,100.0,1000000.0,Newton-Raphson,bf16,1
+large,100.0,1000000.0,Newton-Raphson,fp32,3
+large,100.0,1000000.0,Goldschmidt classic,fp8,2
+large,100.0,1000000.0,Goldschmidt classic,bf16,3
+large,100.0,1000000.0,Goldschmidt classic,fp32,5
+large,100.0,1000000.0,Goldschmidt binomial,fp8,1
+large,100.0,1000000.0,Goldschmidt binomial,bf16,2
+large,100.0,1000000.0,Goldschmidt binomial,fp32,3
